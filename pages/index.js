@@ -27,7 +27,7 @@ export default function Home({ home }) {
             alt={hero_image.alt}
             className="w-full block"
           />
-          <Link href={cta_link.url}>
+          <Link href="/blog">
             <a className="bg-red-400 p-3 mt-7 block w-1/4 text-center">
               {RichText.asText(cta_label)}
             </a>
